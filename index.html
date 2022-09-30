@@ -16,8 +16,27 @@
     <p class="page-subtitle">
       Insira um número com quatro algarismos diferentes:
     </p>
-    <input type="number" id="number" /><br>
+    <input type="number" id="number" />
     <button type="submit" onclick="Advinhar()">Advinhar</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Certo</th>
+            <th>Existente</th>
+            <th>Tentativa</th>
+          </tr>
+        </thead>
+  
+        <tbody id="plays">
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+        </tbody>
+      </table>
+
     <h2 class="resultado" id="tentativas"></h2>
     <h2 class="resultado" id="resultado"></h2>
     <h2 class="resultado" id="historico"></h2>

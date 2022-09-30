@@ -52,3 +52,17 @@ button {
   text-align: center;
   margin-top: 16px;
 }
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+}
+
+th, tr, td {
+  border: solid 1px white;
+  color: white;
+}
+

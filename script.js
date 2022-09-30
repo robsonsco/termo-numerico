@@ -68,11 +68,11 @@ function Advinhar(){
     console.log("Array de elementos existentes:" + " " + existencia);
     console.log("Quantidade de existência:" + " " + existenciaNumber);
 
-// Vamos limpar o campo das variáveis após a tentativa:
-    guessNumber = []
-    acertos = [0]
-    existencia = []
-
+// Vamos limpar o campo das variáveis e o input, após a tentativa:
+    guessNumber = [];
+    acertos = [0];
+    existencia = [];
+    document.getElementById("number").value = "";
 }
 
 
