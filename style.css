@@ -24,10 +24,6 @@ body {
   margin-top: 16px;
 }
 
-.page-logo {
-  width: 200px;
-}
-
 @media (max-height: 500px) {
   body {
     min-height: 800px;
@@ -53,16 +49,35 @@ button {
   margin-top: 16px;
 }
 
-table {
-  border: 2px solid white;
-  border-collapse: collapse;
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 210px;
   margin: auto;
-  width: 40%;
   margin-top: 20px;
+
 }
 
-th, tr, td {
-  border: solid 1px white;
-  color: white;
+.bloco1 {
+  background-color: greenyellow;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
 }
 
+.bloco2 {
+  background-color: violet;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.bloco3 {
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
