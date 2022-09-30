@@ -77,27 +77,22 @@ function Advinhar(){
 
 // Vamos agora criar uma nova função para adicionar os dados na tabela, que mostrará a quantidade de acertos, a quantidade de existência e o palpite do jogador.
 
-let test = { 
-    certo: 1, 
-    existente: 2, 
-    tentativa: 3423 
-};
 
-let plays = [test] 
+let plays = [3432, 3523, 6434] 
 
-MostrarNaTela(plays);
+    let tabelaplays = document.getElementById("plays");
+    tabelaplays.innerHTML = plays;
 
-function MostrarNaTela(plays){
-    let historico = ""
-    for (let i = 0; i < plays.length; i++) {
-        historico += "<tr><td>" + plays[i].certo + "</td>"
-        historico += "<tr><td>" + plays[i].existente + "</td>"
-        historico += "<tr><td>" + plays[i].tentativa + "</td>"
-        historico += "</tr>"
-    }
-    let tabelaplays = document.getElementById("tabelaplays");
-    tabelaplays.innerHTML = historico;
-}
+// MostrarNaTela(plays);
+
+// function MostrarNaTela(plays){
+//     let historico = ""
+//     for (let i = 0; i < plays.length; i++) {
+//         historico = plays[i]
+//     }
+//     let tabelaplays = document.getElementById("plays");
+//     tabelaplays.innerHTML = historico;
+// }
 
 
 
