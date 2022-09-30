@@ -58,7 +58,22 @@ button {
   width: 210px;
   margin: auto;
   margin-top: 20px;
+}
 
+.tabela {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 5px;
+  width: 310px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+tr, td {
+  padding: 10px;
 }
 
 .bloco1 {
