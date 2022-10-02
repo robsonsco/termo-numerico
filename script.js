@@ -70,7 +70,7 @@ function Advinhar(){
 
     // let plays = [acertos, existenciaNumber, guessNumber];
         
-// Vamos agora criar uma nova função para adicionar os dados na tela, que exibirá a quantidade de acertos, a quantidade de existências e os palpites do jogador.
+// Vamos agora criar variaveis para adicionar os dados na tela, que exibirá a quantidade de acertos, a quantidade de existências e os palpites do jogador.
 
     let mostrar1 = document.getElementById("play1").innerHTML = acertos;
     let mostrar2 = document.getElementById("play2").innerHTML = existenciaNumber;
