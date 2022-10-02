@@ -86,7 +86,9 @@ console.log(plays)
 
 
 function MostrarNaTela(){
-
+    for (let i = 0; i < plays.length; i++) {
+        
+    }
 }
 
 

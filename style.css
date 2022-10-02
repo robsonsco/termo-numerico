@@ -50,15 +50,20 @@ button {
 }
 
 .box {
-  background-color: rgba(255, 255, 255, 0.151);
   display: flex;
   font-weight: bold;
   flex-direction: row;
   justify-content: center;
-  border-radius: 5px;
+  width: 200px;
+  margin: auto;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.151);
   width: 200px;
   margin: auto;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 tr, td {
