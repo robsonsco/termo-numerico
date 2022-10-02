@@ -83,22 +83,28 @@ console.log(plays)
 // Vamos agora criar uma nova função para adicionar os dados na tela, que exibirá a quantidade de acertos, a quantidade de existências e os palpites do jogador.
 
 function MostrarNaTela(){
-    let table = document.getElementById("plays");
-    for (let i = 0; i < plays.length; i++) {
-        table.innerHTML += "<div class='box'>" +
-        "<div class='box1'>" + plays[i] + "</div>" +
-        "<div class='box2'>" + plays[i+1] + "</div>" +
-        "<div class='box3'>" + plays[i+2] + "</div>";
+    let items = "";
+    for (let i = 0; i < plays.length; i++){
+        items += "<div class='box1'>" + plays[i] + "</div>" +
+                 "<div class='box2'>" + plays[i+1] + "</div>" +
+                 "<div class='box3'>" + plays[i+2] + "</div>";
     }
+    return items;
+    document.querySelector("main").innerHTML = 
 }
 
 
-// function MostrarNaTela(plays){
-//     let historico = ""
+
+
+
+// function MostrarNaTela(){
+//     let table = document.getElementById("plays");
 //     for (let i = 0; i < plays.length; i++) {
-//         historico = plays[i]
+//         table.innerHTML += "<div class='box'>" +
+//         "<div class='box1'>" + plays[i] + "</div>" +
+//         "<div class='box2'>" + plays[i+1] + "</div>" +
+//         "<div class='box3'>" + plays[i+2] + "</div>";
 //     }
-//     let tabelaplays = document.getElementById("plays");
-//     tabelaplays.innerHTML = historico;
 // }
+
 
