@@ -72,19 +72,20 @@ function Advinhar(){
         
 // Vamos agora criar uma nova função para adicionar os dados na tela, que exibirá a quantidade de acertos, a quantidade de existências e os palpites do jogador.
 
-    let mostrar1 = document.getElementById("play1")
-    let mostrar2 = document.getElementById("play2")
-    let mostrar3 = document.getElementById("play3")
-    mostrar1.innerHTML = acertos;
-    mostrar2.innerHTML = existenciaNumber;
-    mostrar3.innerHTML = guessNumber;
+    let mostrar1 = document.getElementById("play1").innerHTML = acertos;
+    let mostrar2 = document.getElementById("play2").innerHTML = existenciaNumber;
+    let mostrar3 = document.getElementById("play3").innerHTML = guessNumber;
+
+// Condição para vitória:
+    if (acertos == 4){
+        let parabens = document.getElementById("resultado").innerHTML = "PARABÉNS!!! VOCÊ CONSEGUIU!!!"
+    }
 
 // Vamos limpar o campo das variáveis e o input, após a tentativa:
     guessNumber = [];
     acertos = [0];
     existencia = [];
     document.getElementById("number").value = "";
-
 }
 
 
