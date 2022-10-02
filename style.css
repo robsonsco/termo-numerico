@@ -49,14 +49,14 @@ button {
   margin-top: 16px;
 }
 
-.tabela {
-  background-color: rgb(255, 255, 255);
+.box {
+  background-color: rgba(255, 255, 255, 0.151);
   display: flex;
   font-weight: bold;
   flex-direction: row;
   justify-content: center;
   border-radius: 5px;
-  width: 310px;
+  width: 200px;
   margin: auto;
   margin-top: 20px;
 }
@@ -65,21 +65,21 @@ tr, td {
   padding: 10px;
 }
 
-.bloco1 {
+.box1 {
   background-color: greenyellow;
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
 }
 
-.bloco2 {
+.box2 {
   background-color: violet;
   padding: 10px;
   border-radius: 5px;
   margin: 10px;
 }
 
-.bloco3 {
+.box3 {
   background-color: aquamarine;
   padding: 10px;
   border-radius: 5px;

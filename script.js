@@ -63,27 +63,34 @@ function Advinhar(){
     let existenciaNumber = existencia.length;
     existenciaNumber = existenciaNumber - acertos
 
-    console.log(guessNumber);
     console.log("Quantidade de acertos:" + " " + acertos);
-    console.log("Array de elementos existentes:" + " " + existencia);
     console.log("Quantidade de existência:" + " " + existenciaNumber);
+    console.log(guessNumber);
+    console.log("Array de elementos existentes:" + " " + existencia);
 
 // Vamos limpar o campo das variáveis e o input, após a tentativa:
-    guessNumber = [];
-    acertos = [0];
-    existencia = [];
-    document.getElementById("number").value = "";
+    // guessNumber = [];
+    // acertos = [0];
+    // existencia = [];
+    // document.getElementById("number").value = "";
+
+    let plays = [acertos, existencia, guessNumber];
+    MostrarNaTela();
+
+console.log(plays)
 }
 
 // Vamos agora criar uma nova função para adicionar os dados na tabela, que mostrará a quantidade de acertos, a quantidade de existência e o palpite do jogador.
 
 
-let plays = [3432, 3523, 6434] 
 
-    let tabelaplays = document.getElementById("plays");
-    tabelaplays.innerHTML = plays;
 
-// MostrarNaTela(plays);
+function MostrarNaTela(){
+
+}
+
+
+
 
 // function MostrarNaTela(plays){
 //     let historico = ""
